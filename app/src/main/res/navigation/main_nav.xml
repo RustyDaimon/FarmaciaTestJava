@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/menu_inicio">
+
+    <fragment
+        android:id="@+id/menu_inicio"
+        android:name="com.example.farmaciatestjava.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/menu_categoria"
+        android:name="com.example.farmaciatestjava.CategoriasFragment"
+        android:label="fragment_categorias"
+        tools:layout="@layout/fragment_categorias" />
+    <fragment
+        android:id="@+id/menu_farmacias"
+        android:name="com.example.farmaciatestjava.FarmaciasFragment"
+        android:label="fragment_farmacias"
+        tools:layout="@layout/fragment_farmacias" />
+    <fragment
+        android:id="@+id/menu_recycler"
+        android:name="com.example.farmaciatestjava.RecycleFragment"
+        android:label="fragment_recycle"
+        tools:layout="@layout/fragment_recycle" />
+</navigation>
